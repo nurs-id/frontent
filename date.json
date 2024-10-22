@@ -1,0 +1,321 @@
+{
+        "burger":[
+            {
+                "src": "https://eda.yandex/images/3528150/ec719582b1fedd5565d5a2da00163ad7-216x188.png",
+                "info": "Бургер среднего размера с говяжей котлетой приготовленной на огне, с ломтиком сыра, горчицей и кетчупом.",
+                "price": 1450,
+                "name": "Гамбургер Mix"
+            }, 
+            {
+            "src": "https://eda.yandex/images/3772784/b0e9d544e81bab3985de366cd45d0528-216x188.png",
+            "info": "Куринный бургер среднего размера с наггетсами и свежим салатом.",
+            "price": 1350,
+            "name": "Гамбургер куриный"
+            }, 
+            {
+            "src": "https://eda.yandex/images/3807432/9589ef1b4338770d08334a36bb9fcc1d-216x188.jpg",
+            "info": "Говяжий бургер с одной котлетой",
+            "price": 1350,
+            "name": "Burger beef"
+            }, 
+            {
+            "src": "https://eda.yandex/images/3483997/adae7f1a3c171a90e597156a2dca1a4f-216x188.jpg",
+            "info": "Говяжий бургер с двумя котлетами",
+            "price": 1800,
+            "name": "Burger beef х2"
+            }, 
+            {
+            "src": "https://eda.yandex/images/2394388/289c0a077b8c64c35c618a6690e5ee12-216x188.jpg",
+            "info": "Куриный бургер с одной котлетой",
+            "price": 1150,
+            "name": "Куриный бургер"
+            }, 
+            {
+            "src": "https://eda.yandex/images/3807631/82207a808046e05e977cc26fc2000554-216x188.jpg",
+            "info": "Куриный бургер с двумя котлетами",
+            "price": 1450,
+            "name": "Burger chicken х2"
+            }, 
+            {
+            "src": "https://eda.yandex/images/3609085/85c6b1e39cda01d64f5daeddc29fbbff-216x188.jpg",
+            "info": "Говяжий бургер с одной котлетой и сыром",
+            "price": 1500,
+            "name": "Cheese Burger beef"
+            }, 
+            {
+            "src": "https://eda.yandex/images/2353725/997aa1ea655dbd7977f9fa90db53551a-216x188.jpg",
+            "info": "Говяжий бургер с двумя котлетами и сыром",
+            "price": 1950,
+            "name": "Cheese Burger beef х2"
+            }, 
+            {
+            "src": "https://eda.yandex/images/3547279/d88a91a9111e9830196ebb28119aad88-216x188.jpg",
+            "info": "Бургер микс с сыром - с мясом говядины и курицы",
+            "price": 1850,
+            "name": "Mix Cheese Burger x2"
+            }, 
+            {
+            "src": "https://eda.yandex/images/3772784/b0e9d544e81bab3985de366cd45d0528-216x188.png",
+            "info": "Куринный бургер среднего размера с наггетсами и свежим салатом.",
+            "price": 1350,
+            "name": "Гамбургер куриный"
+            }
+        ],
+        "pizza":[
+            {
+                "src": "https://eda.yandex/images/2353725/24faa9b9572945d2ad80396fac9de5b9-216x188.jpeg",
+                "price": 2800,
+                "info": "Пицца соус, соус гриль, сыр моцарелла, колбаски из говядины, колбаски пепперони из цыпленка, жареный лук.",
+                "name": "Пицца Мясная"
+           },
+           {
+                "src": "https://eda.yandex/images/3559865/b9e18b3076354eea90c317200f79124e-216x188.jpeg",
+                "price": 3200 ,
+                "info": "Морепродукты, зелень, сыр",
+                "name": "Маринара"
+           },
+           {
+                "src": "https://eda.yandex/images/3514991/d883d33b059d4894afe37848adbaed80-216x188.jpeg",
+                "price": 2990,
+                "info": "Пепперони, куриная грудка, бекон, ветчина, говяжий фарш, сыр",
+                "name": "Суприм"
+           },
+           {
+                "src": "https://eda.yandex/images/3514991/d883d33b059d4894afe37848adbaed80-216x188.jpeg",
+                "price": 3590,
+                "info": "Помидоры, лук, шампиньоны, пепперони, шашлык, зелень, маринованные огурцы, сыр",
+                "name": "Шашлычная"
+           },
+           {
+                "src": "https://eda.yandex/images/3504598/ab7f32e44e394cb4bb9759e526ae093c-216x188.jpeg",
+                "price": 1990,
+                "info": "Куриная грудка, помидоры, острый перец, сыр",
+                "name": "Pizza Дон Чико"
+           },
+           {
+                "src": "https://eda.yandex/images/3529908/155325ac3dd54270a305194951d2d05b-216x188.jpeg",
+                "price": 2290,
+                "info": "Бекон, ветчина, шампиньоны, ананас, помидоры, сыр",
+                "name": "Четыресезона"
+           },
+           {
+                "src": "https://eda.yandex/images/3595513/6de9e1e1a9224c559e58e85ae87ea5e7-216x188.jpeg",
+                "price": 2890,
+                "info": "Моцарелла, паулина, гауда, сулугуни",
+                "name": "Пицца четыре сыра"
+           },
+           {
+                "src": "https://eda.yandex/images/3595513/b5caf668e3184c2ebf07f557c10dd6c7-216x188.jpeg",
+                "price": 2590,
+                "info": "Пепперони, говяжий фарш, болгарский перец, острый перец, сыр",
+                "name": "Пицца Мексиканская"
+           },
+           {
+                "src": "https://eda.yandex/images/3513074/3d20876b0d0c454b91c445dc351c8c17-216x188.jpeg",
+                "price": 1590,
+                "info": "Пепперони, шампиньоны, лук, острый перец, сыр",
+                "name": "Пицца Цыганская"
+           },
+           {
+                "src": "https://eda.yandex/images/3709189/255f1967bd8d47c0adad54a30ee1026e-216x188.jpeg",
+                "price": 3090,
+                "info": "Бекон, ветчина, говяжий фарш, помидоры, шампиньоны, кукуруза, сыр",
+                "name": "Гамбургер"
+           }
+    
+        ],"chicken":[
+            {
+                "src": "https://eda.yandex/images/3436037/164640f3cd2f36cc9596b424fce01a51-216x188.jpg",
+                "price": 2150,
+                "info": "150g",
+                "name": "Стрипсы M"
+           },
+           {
+                "src": "https://eda.yandex/images/3436037/164640f3cd2f36cc9596b424fce01a51-216x188.jpeg",
+                "price": 650 ,
+                "info": "150g",
+                "name": "Стрипсы S"
+           },
+           {
+                "src": "https://eda.yandex/images/3528285/fbaf4615d14ddbf6b80a17c22a890d99-216x188.jpeg",
+                "price": 2990,
+                "info": "150g",
+                "name": "Куриная ножка"
+           },
+           {
+                "src": "https://eda.yandex/images/3506804/3d714336422d245a45fb130a839403fd-216x188.png",
+                "price": 950,
+                "info": "Сочные стрипсы из нежного куриного филе в хрустящей панировке. Дополни соусом на выбор - сырный, кетчуп, барбекю",
+                "name": "Стрипсы 3шт"
+           },
+           {
+                "src": "https://eda.yandex/images/3506804/3d714336422d245a45fb130a839403fd-216x188.png",
+                "price": 1550,
+                "info": "Сочные стрипсы из нежного куриного филе в хрустящей панировке. Дополни соусом на выбор - сырный, кетчуп, барбекю",
+                "name": "Стрипсы 5шт "
+           },
+           {
+                "src": "https://eda.yandex/images/3506804/3d714336422d245a45fb130a839403fd-216x188.png",
+                "price": 2290,
+                "info": "Сочные стрипсы из нежного куриного филе в хрустящей панировке. Дополни соусом на выбор - сырный, кетчуп, барбекю",
+                "name": "Стрипсы 8шт"
+           },
+           {
+                "src": "https://eda.yandex/images/3547279/fe9edc16400618610393211690acb077-400x400nocrop.jpeg",
+                "price": 1700,
+                "info": "250г",
+                "name": "Крылышки S 5шт"
+           },
+           {
+                "src": "https://eda.yandex/images/3547279/fe9edc16400618610393211690acb077-400x400nocrop.jpeg",
+                "price": 2400,
+                "info": "450г",
+                "name": "Крылышки M 8шт"
+           },
+           {
+                "src": "https://eda.yandex/images/3547279/fe9edc16400618610393211690acb077-400x400nocrop.jpeg",
+                "price": 3400,
+                "info": "750г",
+                "name": "Крылышки L 12шт"
+           },
+           {
+                "src": "https://eda.yandex/images/3547279/fe9edc16400618610393211690acb077-400x400nocrop.jpeg",
+                "price": 3900,
+                "info": "900г",
+                "name": "Крылышки ХL 15шт"
+           }
+    
+        ],"drink":[
+            {
+                "src": "https://eda.yandex/images/3401132/66cd8df04a2a595984cdd34b23e5f3b2-216x188.jpg",
+                "price": 650,
+                "info": "150g",
+                "name": "Fuse Tea"
+           },
+           {
+                "src": "https://eda.yandex/images/3454897/5b554e19816c0e65c375f23d3d6159be-216x188.jpg",
+                "price": 650 ,
+                "info": "150g",
+                "name": "Fanta"
+           },
+           {
+                "src": "https://eda.yandex/images/3507285/6371387d33f2cef0f17e66169a961943-216x188.jpg",
+                "price": 650,
+                "info": "150g",
+                "name": "Sprite"
+           },
+           {
+                "src": "https://eda.yandex/images/3806023/c709d902743a58f2cc958d20c31448e8-216x188.png",
+                "price": 650,
+                "info": "Чай Lipton Зеленый в бутылке (0,5 л)",
+                "name": "lipton"
+           },
+           {
+                "src": "https://eda.yandex/images/3502800/f8ee5693d0c9b43c57eaa87905419de1-216x188.png",
+                "price": 650,
+                "info": "Aqua Minerale Active Цитрус в бутылке (0,5 л)",
+                "name": "Цитросовая вода"
+           },
+           {
+                "src": "https://eda.yandex/images/3596693/4ab737033c6dde97111ac68d3759def3-216x188.png",
+                "price": 650,
+                "info": "Чай Lipton Лимон в бутылке (0,5 л) ",
+                "name": "lipton"
+           },
+           {
+                "src": "https://eda.yandex/images/3337779/fc7679e5bc32e87e71177f8b260979f0-216x188.jpg",
+                "price": 650,
+                "info": "Яблочный сок",
+                "name": "Сок Piko (200 мл)"
+           },
+           {
+                "src": "https://eda.yandex/images/2796335/754602269f26a277e7052bb6e2847f3c-216x188.jpg",
+                "price": 650,
+                "info": "Вода BonAqua без газа",
+                "name": "Вода BonAqua (500 мл)"
+           },
+           {
+                "src": "https://eda.yandex/images/3702558/4194162df3b713960bc4f00977c62f0f-216x188.jpg",
+                "price": 650,
+                "info": "Coca-cola 0,5",
+                "name": "Coca-cola 0,5"
+           },
+           {
+                "src": "https://eda.yandex/images/3583862/68edaac85c1a09c973dfdca7d5f29c54-216x188.jpeg",
+                "price": 650,
+                "info": "150g",
+                "name": "Pepsi"
+           }
+    
+        ],"milkshake":[
+            {
+                "src": "https://eda.yandex/images/3420935/d8facbba0b6b41fd84b6aa1eef8702aa-400x400nocrop.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Милкшейк Honey moon"
+           },
+           {
+                "src": "https://eda.yandex/images/3538649/75d5cac669444c74a7208a46b81df33f-400x400nocrop.jpeg",
+                "price": 1350 ,
+                "info": "500г",
+                "name": "Милкшейк Yumms"
+           },
+           {
+                "src": "https://eda.yandex/images/3816972/3f05a056f58147c7ae0db15fa18f06f5-216x188.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Ягодный смузи"
+           },
+           {
+                "src": "https://eda.yandex/images/3439028/cbbe22aadc4747b0b2df5067f5f56698-400x400nocrop.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Милкшейк Nuts power"
+           },
+           {
+                "src": "https://eda.yandex/images/3595156/4db12301cb0a4e2088c87f74eb36bee8-216x188.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Ванильный милкшейк"
+           },
+           {
+                "src": "https://eda.yandex/images/3507787/7ca21bb1f8c848d389b8d99d98cb37bb-216x188.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Милкшейк Vanile"
+           },
+           {
+                "src": "https://eda.yandex/images/3507285/71a1ed0e9d4b44b2adba00e3cd6ff033-216x188.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Банановый милкшейк"
+           },
+           {
+                "src": "https://eda.yandex/images/3518584/489eaf6918324a90b12556f7ddccde2a-216x188.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Шоколадный милкшейк"
+           },
+           {
+                "src": "https://eda.yandex/images/3454897/7ccf9fe446884c3b8a45aadb7f65caee-216x188.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Орео милкшейк"
+           },
+           {
+                "src": "https://eda.yandex/images/3454897/7ccf9fe446884c3b8a45aadb7f65caee-216x188.jpeg",
+                "price": 1350,
+                "info": "500г",
+                "name": "Карамельный милкшейк"
+           }
+    
+        ],
+        "test":[
+          {
+               "src": "https://eda.yandex/images/3454897/7ccf9fe446884c3b8a45aadb7f65caee-216x188.jpeg",
+               "price": 1350,
+               "info": "500г",
+               "name": "Карамельный милкшейк"
+          }
+        ]
+}
