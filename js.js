@@ -1,5 +1,21 @@
 
 // Загрузка JSON-файла
+function open_log(){
+    document.getElementById('log_sector').style.display = 'block';
+}
+function close_log(){
+    document.getElementById('log_sector').style.display = 'none';
+    document.getElementById('user_reg').style.display = 'none';
+    document.getElementById('user_log').style.display = 'none';
+}
+function open_reg(){
+    open_log();
+    document.getElementById('user_log').style.display = 'block';
+}
+function open_login(){
+    open_log();
+    document.getElementById('user_reg').style.display = 'block';
+}
 function menu_food (arg1){
     console.log(arg1);
     document.getElementById("buyitem").innerHTML = "";

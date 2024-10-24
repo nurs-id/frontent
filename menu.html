@@ -852,12 +852,168 @@
             font-size: 16px;
             color: #5d5d5d;
         }
+        #log{
+            margin-top: 20px;
+            position: absolute;
+            right: 50px;
+            font-size: 20px;
+            border: 1px solid rgb(114, 111, 111);
+            color: white;
+            padding: 5px;
+            border-radius: 15px;
+            padding-left: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-right: 10px;
+        }
+        #log:hover{
+            background: gray;
+            color: black;
+        }
+        #reg{
+            margin-top: 20px;
+            position: absolute;
+            right: 150px;
+            font-size: 20px;
+            border: 1px solid rgb(123, 120, 120);
+            color: white;
+            padding: 5px;
+            border-radius: 15px;
+            padding-left: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+            padding-right: 10px;
+        }
+        #reg:hover{
+            background: gray;
+            color: black;
+        }
+        #log_sector{
+            display: block;
+            position: fixed;
+            z-index: 10;
+            width: 100%;
+            height: 100%;
+            /* background-color: beige; */
+        }
+        #log_box{
+            width: 100%;
+            height: 100%;
+            position: relative;
+            /* background-color: cadetblue; */
+            /* opacity: 0.3; */
+        }
+        #log_close{
+            width: 100%;
+            height: 100%;
+            background-color: #5d5d5d;
+            position: absolute;
+            opacity: 0.3;
+        }
+        #user_reg{
+            margin-left: 30%;
+            width: 40%;
+            /* margin-top: 20; */
+            top: 100px;
+            height: 40%;
+            background-color: #ffffff;
+            position: relative;
+            border-radius: 15px;
+            /* z-index: 1; */
+            display: none;
+           font-family: Arial, Helvetica, sans-serif;
+        }
+        #user_reg p{
+            font-size: 22px;
+            position: relative;
+            top: 20px;
+            left: 160px;
+        }
+        #user_reg input{
+            width: 35%;
+            margin-top: 4%;
+            margin-right: 30%;
+            margin-left: 20%;
+            /* height: 2px; */
+            border: 0px solid black;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            font-size: 15px;
+        }
+        #user_reg h5{
+            margin-left: 20%;
+            font-size: 17px;
+            /* background-color: transparent; */
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 15px;
+            width: max-content;
+            border: 1px solid black;
+            background-color: white;
+        }
+        #user_log{
+            margin-left: 30%;
+            width: 40%;
+            /* margin-top: 20; */
+            top: 100px;
+            height: 40%;
+            background-color: #ffffff;
+            position: relative;
+            border-radius: 15px;
+            /* z-index: 1; */
+            font-family: Arial, Helvetica, sans-serif;
+            /* display: none; */
+        }
+        #user_log p{
+            font-size: 22px;
+            position: relative;
+            top: 20px;
+            left: 160px;
+        }
+        #user_log input{
+            width: 35%;
+            margin-top: 4%;
+            margin-right: 30%;
+            margin-left: 20%;
+            /* height: 2px; */
+            border: 0px solid black;
+            border-bottom: 1px solid rgb(0, 0, 0);
+            font-size: 15px;
+        }
+        #user_log h5{
+            margin-left: 20%;
+            font-size: 17px;
+            /* background-color: transparent; */
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            border-radius: 15px;
+            width: max-content;
+            border: 1px solid black;
+            background-color: white;
+        }
     </style>
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
 </head>
 
 <body>
+    <div id="log_sector">
+        <div id="log_box">
+            <div id="log_close" onclick="close_log()"></div>
+            <div id="user_reg">
+                <p>Регестрация</p>
+                <input placeholder="Напишите свое имя" type="text">
+                <input placeholder="Напишите свой пароль" type="text">
+                <input placeholder="Напишите свое email" type="text">
+                <h5>Отправить </h5>
+            </div>
+           <div id="user_log">
+                <p>Вход</p>
+                <input  placeholder="Напишите свое имя" type="text">
+                <input  placeholder="Напишите свой пароль" type="text">
+                <h5>Отправить </h5>
+            </div>
+        </div>
+    </div>
     <div id="secter">
         <div onclick="secter_close()" id="secter_close">
 
@@ -990,6 +1146,16 @@
         <span class="text">Almaty Fried Chicken</span> <span onclick="o()" class=" lol material-symbols-outlined ">
             menu
         </span>
+
+<!-- register -->
+        <div id="reg" onclick="open_reg()">
+            Регестрация
+        </div> 
+        <div id="log" onclick="open_login()">
+            Вход
+        </div> 
+
+
     </header>
     <div class="card">
 
